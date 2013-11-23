@@ -1,5 +1,4 @@
-﻿// This is Git Test
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -19,7 +18,7 @@ namespace MvcApplication1.Controllers
         public ActionResult About()
         {
             ViewBag.Message = "Your app description page.";
-            
+
             return View();
         }
 
